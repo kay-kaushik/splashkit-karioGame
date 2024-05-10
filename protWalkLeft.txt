@@ -1,0 +1,17 @@
+SplashKit Animation
+
+
+//walking left
+//f: identifier, cell number, duration, next frame)
+//f: using brackets :: id range, cell range, duration, next animation ( if you put the next animation id as the current one,
+// it creates a loop)
+
+f:[7-9],[7-9],10,7
+f:[4-6],[4-6],10,4
+f:[9-9],[9-9],10,9
+
+// animation identifier
+
+i:jumpUp,9
+i:walkLeft,4
+i:walkRight,7
